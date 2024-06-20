@@ -1,0 +1,102 @@
+
+@media (max-width:992px) {
+    .header .links ul{
+        display: none;
+    }
+    .header .btn [type="submit"]{
+        display: none;
+    }
+    .header .links i{
+        display: inline-block;
+    }
+    .header .links .open {
+        background-color: #fff;
+    padding: 10px;
+    display: block;
+    position: absolute;
+    right: 15%;
+    top: 63px;
+    border-radius: 5px;
+    z-index: 1;
+    text-align: center;
+    }
+    .header .links .open li {
+        padding: 4px;
+        transition: .5s;
+    }
+    .header .links .open li:hover{
+        padding: 10px;
+        background-color: #cdcdcd;
+
+    } 
+    .destination .all-cards{
+        grid-template-columns: repeat(2,auto);
+    }
+    
+}
+@media (max-width:767px) { /*Medium devices => Taplets*/
+    .landing .img{
+        width: 100%;
+    }
+    .landing .img .text{
+        top: 40%;
+    }
+    .destination h5{
+        font-size: 55px;
+        width: 400px;
+        left: 15%;
+    }
+    .destination .all-cards{
+        grid-template-columns: repeat(1,auto);
+    }
+    .destination .all-cards .card img{
+        height: 300px;
+    }
+
+}
+@media (max-width: 567px) {
+    .services .heading h2{
+        font-size: 60px;
+    }
+    .services .heading  p{
+        font-size: 15px;
+        margin-top: -10px;
+    }
+    .destination h5{
+        font-size: 40px;
+        width: 300px;
+        left: 15%;
+    }
+    .customers h3{
+        font-size: 60px;
+    }
+    .customers .customer{
+        width: fit-content;
+    }
+
+}       
+
+
+/* start grid system */
+
+@media (min-width:576px) { /*small devices => land scape phones*/
+    .container{
+        width: 540px;
+    }
+}
+@media (min-width:768px) { /*Medium devices => Taplets*/
+    .container{
+        width: 720px;
+    }
+}
+@media (min-width:992px) { /*Desktop*/
+    .container{
+        width: 960px;
+    }
+}
+@media (min-width:1200px) { /*Large screen*/
+    .container{
+        width: 1140px;
+    }
+}
+/* End grid system */ 

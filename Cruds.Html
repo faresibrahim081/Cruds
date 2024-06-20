@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Css/media.css">
+    <link rel="stylesheet" href="Css/normalize.css">
+    <link rel="stylesheet" href="Css/Cruds.css">
+
+    <title>CRUDS</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="head">
+            <h2>cruds</h2>
+            <p>product management system</p>
+        </div>
+        <div class="inputs">
+            <input type="text" placeholder="title" class="title">
+            <div class="price">
+                <input type="number" placeholder="price" id="price">
+                <input type="number" placeholder="taxes" class="taxes">
+                <input type="number" placeholder="ads" class="ads">
+                <input type="number" placeholder="descount" class="descount">
+                <small class="total">1234567</small>
+            </div>
+            <input type="number" placeholder="count" class="count">
+            <input type="number" placeholder="category" class="category">
+            <button class="submit">Create</button>
+        </div>
+        <div class="outputs">
+            <div class="searchBlock">
+                <input type="text" id="search" placeholder="search">
+                <div class="searchBtn">
+                    <button id="seachTitle">search By Title</button>
+                    <button id="seachCategory">search By Category</button>
+                </div>
+            </div>
+            <table>
+                <tr>
+                    <th>id</th>
+                    <th>title</th>
+                    <th>price</th>
+                    <th>taxes</th>
+                    <th>ads</th>
+                    <th>discount</th>
+                    <th>total</th>
+                    <th>Category</th>
+                    <th>update</th>
+                    <th>delate</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>phone</td>
+                        <td>10000</td>
+                        <td>500</td>
+                        <td>700</td>
+                        <td>250</td>
+                        <td>400</td>
+                        <td>phone</td>
+                        <td><button id="update">Update</button></td>
+                        <td><button id="delate">Delate</button></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>phone</td>
+                        <td>10000</td>
+                        <td>500</td>
+                        <td>700</td>
+                        <td>250</td>
+                        <td>400</td>
+                        <td>phone</td>
+                        <td><button id="update">update</button></td>
+                        <td><button id="update">delate</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+  </body>
+</html>
