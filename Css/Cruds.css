@@ -94,3 +94,8 @@ table tr::before{
     height: 1px;
     background-color: #eee;
 }
+@media (max-width:767px) {
+    table{
+        font-size: 9px;
+    }
+}
